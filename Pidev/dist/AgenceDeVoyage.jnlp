@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AgenceDeVoyage.jnlp">
+  <information>
+    <title>AgenceDeVoyage</title>
+    <vendor>Abn</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AgenceDeVoyage.jar" size="398305" download="eager" />
+    <jar href="lib\com.fasterxml.jackson.databind.jar" size="920971" download="eager" />
+    <jar href="lib\commons-codec-1.9.jar" size="263965" download="eager" />
+    <jar href="lib\commons-logging-1.2.jar" size="61829" download="eager" />
+    <jar href="lib\controlsfx-8.40.14.jar" size="1215643" download="eager" />
+    <jar href="lib\fontawesomefx-8.9.jar" size="571068" download="eager" />
+    <jar href="lib\guava-18.0.jar" size="2256213" download="eager" />
+    <jar href="lib\httpclient-4.5.2.jar" size="736658" download="eager" />
+    <jar href="lib\httpcore-4.4.4.jar" size="326724" download="eager" />
+    <jar href="lib\jBCrypt-0.4.1.jar" size="17570" download="eager" />
+    <jar href="lib\jackson-annotations-2.8.7.jar" size="55781" download="eager" />
+    <jar href="lib\jackson-core-2.8.7.jar" size="282314" download="eager" />
+    <jar href="lib\jackson-databind-2.8.7.jar" size="1237433" download="eager" />
+    <jar href="lib\javax.mail-1.6.1.jar" size="654100" download="eager" />
+    <jar href="lib\jfoenix-1.6.0.jar" size="2381877" download="eager" />
+    <jar href="lib\joda-time-2.5.jar" size="588001" download="eager" />
+    <jar href="lib\json-20140107.jar" size="64952" download="eager" />
+    <jar href="lib\log4j-api-2.11.0.jar" size="263109" download="eager" />
+    <jar href="lib\log4j-core-2.11.0.jar" size="1600780" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.23-bin.jar" size="834126" download="eager" />
+    <jar href="lib\restfb-2.18.0.jar" size="667091" download="eager" />
+    <jar href="lib\slf4j-api-1.7.25.jar" size="41203" download="eager" />
+    <jar href="lib\twilio-7.17.8.jar" size="2801648" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="AgenceDeVoyage" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="Pidev.main"  name="AgenceDeVoyage" />
+  <update check="always"/>
+</jnlp>

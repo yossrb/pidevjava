@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="375.0" prefWidth="745.0" style="-fx-background-color: #0B0742;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Pidev.gui.AddReservationFXMLController">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="353.0" prefWidth="828.0" spacing="15.0" style="-fx-background-color: #0B0742;">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Reservation" wrappingWidth="245.0699462890625">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Text>
+            <Text fx:id="t_error" fill="#fc6d6d" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <VBox alignment="TOP_CENTER" maxWidth="176.0" prefHeight="26.0" prefWidth="200.0">
+               <children>
+                  <TextField fx:id="t_paiment" prefHeight="26.0" prefWidth="695.0" promptText="paiment" />
+               </children>
+            </VBox>
+            <ComboBox fx:id="cb_hotel" disable="true" onAction="#onCbHotelClicked" prefHeight="26.0" prefWidth="177.0" promptText="Hotel" />
+            <DatePicker fx:id="dp_startDate" promptText="start Date" />
+            <DatePicker fx:id="dp_endDate" promptText="end Date" />
+            <HBox alignment="TOP_CENTER" spacing="10.0" />
+            <HBox alignment="TOP_RIGHT" spacing="10.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#onClickCancel" text="Cancel" />
+                  <Button mnemonicParsing="false" onAction="#onClickReset" text="reset" />
+                  <Button mnemonicParsing="false" onAction="#onClickAdd" text="Add" />
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="113.0" top="5.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
